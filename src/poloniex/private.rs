@@ -39,7 +39,6 @@ Additionally, all queries must include a "nonce" POST parameter. The nonce param
 
 All responses from the trading API are in JSON format. In the event of an error, the response will always be of the following format:
 
-{"error":"<error message>"}
 
 There are several methods accepted by the trading API, each of which is specified by the "command" POST parameter:*/
 
